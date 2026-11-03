@@ -1,0 +1,56 @@
+# ==========================================
+# Jupyter Notebook / IPython
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ==========================================
+# Python Bytecode and Caches
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Virtual Environments (Local)
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+
+# ==========================================
+# Project Environments & Secrets
+# ==========================================
+.env
+*.env
+.env.*
+!.env.example
+
+# ==========================================
+# Data, Models, and Large Files
+# ==========================================
+*.csv
+*.json
+*.xlsx
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.onnx
+
+# ==========================================
+# Operating System & IDEs
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+.DS_Store
